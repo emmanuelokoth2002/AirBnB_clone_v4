@@ -4,10 +4,10 @@
 mkdir -p AirBnB_v4/web_dynamic
 
 # Step 2: Copy the necessary files to the web_dynamic folder
-cp AirBnB_v4/web_flask/static AirBnB_v4/web_dynamic/ -r
-cp AirBnB_v4/web_flask/templates/100-hbnb.html AirBnB_v4/web_dynamic/
-cp AirBnB_v4/web_flask/__init__.py AirBnB_v4/web_dynamic/
-cp AirBnB_v4/web_flask/100-hbnb.py AirBnB_v4/web_dynamic/
+cp web_flask/static AirBnB_v4/web_dynamic/ -r
+cp web_flask/templates/100-hbnb.html AirBnB_v4/web_dynamic/
+cp web_flask/__init__.py AirBnB_v4/web_dynamic/
+cp web_flask/100-hbnb.py AirBnB_v4/web_dynamic/
 
 # Step 3: Rename 100-hbnb.py to 0-hbnb.py
 mv AirBnB_v4/web_dynamic/100-hbnb.py AirBnB_v4/web_dynamic/0-hbnb.py
